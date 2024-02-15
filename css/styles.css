@@ -1,0 +1,10 @@
+:root{
+    --btn-bg-color:#2196f3;
+    --footer-bg-color:#2F303A;
+    --our-team-bg-color:#F5F4FA;
+    --our-team-text-color:#757575;
+    --menu-nav-text-color:#212121;
+}
+.hero-button{
+    background-color: var(--btn-bg-color);
+}
