@@ -4,6 +4,8 @@
     --our-team-bg-color:#F5F4FA;
     --our-team-text-color:#757575;
     --menu-nav-text-color:#212121;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
 .hero-button{
     background-color: var(--btn-bg-color);
