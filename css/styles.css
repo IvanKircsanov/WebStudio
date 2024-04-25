@@ -1,15 +1,15 @@
-:root{
-    --btn-bg-color:#2196f3;
-    --footer-bg-color:#2F303A;
-    --our-team-bg-color:#F5F4FA;
-    --our-team-text-color:#757575;
-    --menu-nav-text-color:#212121;
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
+:root {
+  --btn-bg-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --our-team-bg-color: #f5f4fa;
+  --our-team-text-color: #757575;
+  --menu-nav-text-color: #212121;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
-body{
-    font-family: var(--font-family)
+body {
+  font-family: var(--font-family);
 }
-.hero-button{
-    background-color: var(--btn-bg-color);
+.hero-button {
+  background-color: var(--btn-bg-color);
 }
