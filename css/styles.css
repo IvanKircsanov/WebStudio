@@ -10,12 +10,47 @@
 body {
   font-family: var(--font-family);
 }
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .container{
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.span-web{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--btn-bg-color);
+}
+.span-studio{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--menu-nav-text-color);
+}
+.menu-link{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--menu-nav-text-color);
+}
+.menu-link:hover{
+  color: var(--btn-bg-color);
 }
 .hero-button {
   background-color: var(--btn-bg-color);
