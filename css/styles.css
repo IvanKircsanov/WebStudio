@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6, p{
 }
 a{
     text-decoration: none;
+    color: var(--our-team-text-color);
+}
+a:hover{
+  color: var(--btn-bg-color);
 }
 ul{
     margin: 0;
@@ -28,8 +32,11 @@ ul{
   padding-left: 15px;
   padding-right: 15px;
 }
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .span-web{
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -43,7 +50,6 @@ ul{
   color: var(--menu-nav-text-color);
 }
 .menu-link{
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -52,6 +58,127 @@ ul{
 .menu-link:hover{
   color: var(--btn-bg-color);
 }
+.contact-link-header{
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--our-team-text-color);
+}
+.contact-link-header{
+   color: var(--btn-bg-color);
+}
+.for-your-buisness{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.for-your-buisness-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
 .hero-button {
   background-color: var(--btn-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+}
+.our-features{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-features-item-title{
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--menu-nav-text-color);
+}
+.list-features-item-title-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--our-team-text-color);
+}
+.images{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--menu-nav-text-color);
+}
+.our-team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.member-name{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--menu-nav-text-color);
+}
+.member-position{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--our-team-text-color);
+}
+.span-web{
+  padding-top: 60px;
+}
+.contacts{
+  padding-bottom: 60px;
+}
+.location{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+}
+.contact-link-footer{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.about-button:hover{
+  background-color: var(--btn-bg-color);
+  color: #fff;
+}
+.project-card-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--menu-nav-text-color);
+}
+.project-card-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: var(--our-team-text-color);
+}
+.about{
+  padding: 94px 34px;
+}
+.projects{
+  padding: 34px 94px;
+}
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
