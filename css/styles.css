@@ -135,12 +135,6 @@ ul{
   text-align: center;
   color: var(--our-team-text-color);
 }
-.span-web{
-  padding-top: 60px;
-}
-.contacts{
-  padding-bottom: 60px;
-}
 .location{
   font-weight: 400;
   font-size: 14px;
