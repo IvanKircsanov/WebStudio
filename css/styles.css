@@ -36,6 +36,14 @@ ul{
   padding-top: 24px;
   padding-bottom: 25px;
 }
+.header-position{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+  padding-left: 93px;
+  padding-right: 344px;
+}
 .span-web{
   font-weight: 700;
   font-size: 26px;
@@ -49,6 +57,10 @@ ul{
   letter-spacing: 0.03em;
   color: var(--menu-nav-text-color);
 }
+.menu{
+  display: flex;
+  column-gap: 50px;
+}
 .menu-link{
   font-weight: 500;
   font-size: 14px;
@@ -57,6 +69,10 @@ ul{
 }
 .menu-link:hover{
   color: var(--btn-bg-color);
+}
+.contacts-header{
+  display: flex;
+  column-gap: 50px;
 }
 .contact-link-header{
   font-weight: 500;
@@ -70,6 +86,7 @@ ul{
 .for-your-buisness{
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--footer-bg-color);
 }
 .for-your-buisness-title{
   font-weight: 900;
@@ -78,9 +95,15 @@ ul{
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+  color: #fff;
+  width: 696px;
+  margin: 0 auto;
+  height: 120px;
 }
 .hero-button {
   background-color: var(--btn-bg-color);
+  width: 216px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -91,6 +114,13 @@ ul{
 .our-features{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list-features{
+  display: flex;
+  column-gap: 30px;
+}
+.list-features-item-title{
+  margin-bottom: 10px;
 }
 .list-features-item-title{
   font-weight: 700;
@@ -116,12 +146,27 @@ ul{
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--menu-nav-text-color);
+  padding-bottom: 50px;
+}
+.image-gallery{
+  display: flex;
+  column-gap: 30px;
 }
 .our-team{
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
+}
+.members{
+  display: flex;
+  column-gap: 30px;
+}
+.team-member{
+  background-color: #fff;
 }
 .member-name{
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -134,12 +179,28 @@ ul{
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--our-team-text-color);
+  margin-bottom: 30px;
+}
+.footer{
+  background-color: var(--footer-bg-color);
+}
+.span-studio-footer{
+  color: #fff;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.footer-contacts{
+  column-gap: 9px;
 }
 .location{
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
+  padding-top: 20px;
+  color: #fff;
 }
 .contact-link-footer{
   font-weight: 400;
@@ -167,10 +228,33 @@ ul{
   color: var(--our-team-text-color);
 }
 .about{
-  padding: 94px 34px;
+  padding-top: 94px;
+  padding-bottom: 34px;
+}
+.about-list{
+  display: flex;
+  column-gap: 8px;
+  /* align-items: center; */
+}
+.about-button{
+  width: 112px;
+  height: 38px;
+  border: none;
+  align-items: center;
 }
 .projects{
-  padding: 34px 94px;
+  padding-top: 34px;
+  padding-bottom: 94px;
+  align-items: center;
+  width: 1170px;
+  height: 1360px;
+}
+.project-cards{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin: 0 auto;
 }
 .footer{
   padding-top: 60px;
