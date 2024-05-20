@@ -26,8 +26,12 @@ ul{
     padding: 0;
     list-style: none;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 .container{
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -43,7 +47,6 @@ ul{
 }
 .navbar{
   margin-left: 93px;
-  margin-right: 344px;
 }
 .span-web{
   font-weight: 700;
@@ -74,6 +77,7 @@ ul{
 .contacts-header{
   display: flex;
   column-gap: 50px;
+  margin-left: auto;
 }
 .contact-link-header{
   font-weight: 500;
@@ -111,6 +115,9 @@ ul{
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
+  display: block;
+  margin: 30px auto;
+  border: none;
 }
 .our-features{
   padding-top: 94px;
@@ -215,6 +222,10 @@ ul{
   background-color: var(--btn-bg-color);
   color: #fff;
 }
+.about-list{
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .project-card-title{
   font-weight: 700;
   font-size: 18px;
@@ -246,9 +257,6 @@ ul{
 .projects{
   padding-top: 34px;
   padding-bottom: 94px;
-  align-items: center;
-  width: 1170px;
-  height: 1360px;
   margin: 0 auto;
 }
 .project-cards{
@@ -256,14 +264,27 @@ ul{
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
-  margin: 0 auto;
 }
 .project-card-list{
-  display: flex;
-  flex-wrap: wrap;
   flex-basis: calc((100% - 60px) / 3);
+}
+.project-content-wrap{
+  padding: 20px 24px;
+  border: 1px solid #eee;
 }
 .footer{
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-contacts{
+  font-style: normal;
+}
+.span-studio-footer{
+  color: #fff;
+}
+.location{
+  margin-bottom: 9px;
+}
+.contacts-item-footer + .contacts-item-footer{
+  margin-top: 9px;
 }
