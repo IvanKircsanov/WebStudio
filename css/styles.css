@@ -9,6 +9,7 @@
 }
 body {
   font-family: var(--font-family);
+  font-size: 14px;
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -41,8 +42,8 @@ ul{
     align-items: center;
 }
 .navbar{
-  padding-left: 93px;
-  padding-right: 344px;
+  margin-left: 93px;
+  margin-right: 344px;
 }
 .span-web{
   font-weight: 700;
@@ -234,7 +235,6 @@ ul{
 .about-list{
   display: flex;
   column-gap: 8px;
-  /* align-items: center; */
 }
 .about-button{
   width: 112px;
@@ -248,6 +248,7 @@ ul{
   align-items: center;
   width: 1170px;
   height: 1360px;
+  margin: 0 auto;
 }
 .project-cards{
   display: flex;
