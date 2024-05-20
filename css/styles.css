@@ -258,6 +258,11 @@ ul{
   row-gap: 30px;
   margin: 0 auto;
 }
+.project-card-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 60px) / 3);
+}
 .footer{
   padding-top: 60px;
   padding-bottom: 60px;
