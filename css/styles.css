@@ -46,6 +46,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;;
 }
 .header-position {
   display: flex;
@@ -218,8 +219,9 @@ img {
   column-gap: 30px;
 }
 .team-member {
-  background-color: #fff;
-  box-shadow: 0 0 60px 3px black;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .member-name {
   margin-top: 30px;
@@ -269,41 +271,28 @@ img {
 
 /* Portfolio */
 
-.about-button:hover {
-  background-color: var(--btn-bg-color);
-  color: #fff;
-}
-.about-list {
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.project-card-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 200%;
-  letter-spacing: 0.06em;
-  color: var(--menu-nav-text-color);
-}
-.project-card-subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 187%;
-  letter-spacing: 0.03em;
-  color: var(--our-team-text-color);
-}
+
 .about {
   padding-top: 94px;
   padding-bottom: 34px;
 }
-.about-list {
-  display: flex;
-  column-gap: 8px;
+.about-button:hover {
+  background-color: var(--btn-bg-color);
+  color: #fff;
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-.about-button {
+.about-button{
+  border-radius: 4px;
   width: 112px;
   height: 38px;
   border: none;
   align-items: center;
+}
+.about-list {
+  justify-content: center;
+  margin-bottom: 50px;
+  display: flex;
+  column-gap: 8px;
 }
 .projects {
   padding-top: 34px;
@@ -318,6 +307,25 @@ img {
 }
 .project-card-list {
   flex-basis: calc((100% - 60px) / 3);
+}
+.project-card-list:hover {
+  border: 1px solid #eee;
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+.project-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--menu-nav-text-color);
+}
+.project-card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: var(--our-team-text-color);
 }
 .project-content-wrap {
   padding: 20px 24px;
