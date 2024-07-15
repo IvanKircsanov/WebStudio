@@ -99,6 +99,10 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--footer-bg-color);
+  background-image: url("../img/hero-overlay-img.png"), url("../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .for-your-buisness-title {
   font-weight: 900;
@@ -118,13 +122,15 @@ img {
   height: 50px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
   display: block;
   margin: 30px auto;
   border: none;
+  cursor: pointer;
+  border-radius: 4px;
 }
 .our-features {
   padding-top: 94px;
@@ -287,6 +293,7 @@ img {
   height: 38px;
   border: none;
   align-items: center;
+  cursor: pointer;
 }
 .about-list {
   justify-content: center;
@@ -304,6 +311,7 @@ img {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
+  cursor: pointer;
 }
 .project-card-list {
   flex-basis: calc((100% - 60px) / 3);
