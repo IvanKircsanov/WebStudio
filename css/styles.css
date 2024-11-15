@@ -86,14 +86,20 @@ img {
   column-gap: 50px;
   margin-left: auto;
 }
-.contact-link-header {
+.contacts-link-header {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--our-team-text-color);
 }
-.contact-link-header {
-  color: var(--btn-bg-color);
+.icon-contacts {
+  fill: var(--our-team-text-color);
+  margin-right: 10px;
+}
+.contacts-link-header:hover .icon-contacts{
+  fill: var(--btn-bg-color);
 }
 .for-your-buisness {
   padding-top: 200px;
@@ -245,6 +251,11 @@ img {
   text-align: center;
   color: var(--our-team-text-color);
   margin-bottom: 30px;
+}
+.social-icon{
+  margin-left: 34px;
+  margin-top: 354px;
+  fill:#afb1b8;
 }
 .footer {
   background-color: var(--footer-bg-color);
