@@ -134,6 +134,7 @@ img {
   color: #fff;
   display: block;
   margin: 30px auto;
+  padding: 10px 30px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -146,49 +147,14 @@ img {
   display: flex;
   column-gap: 30px;
 }
-.antenna::before {
-  content: "";
-  display: block;
+.icon-wrap{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-color: var(--our-team-bg-color);
-  margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/antenna-1.png");
-}
-.astronaut::before {
-  content: "";
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: var(--our-team-bg-color);
-  margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/astronaut-1.png");
-}
-.clock::before {
-  content: "";
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: var(--our-team-bg-color);
-  margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/clock-1.png");
-}
-.diagram::before {
-  content: "";
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: var(--our-team-bg-color);
-  margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/diagram-1.png");
+  align-items: center;
 }
 .list-features-item-title {
   font-weight: 700;
