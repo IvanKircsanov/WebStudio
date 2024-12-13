@@ -218,10 +218,55 @@ img {
   color: var(--our-team-text-color);
   margin-bottom: 30px;
 }
+.social-list{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 30px;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms;
+}
 .social-icon{
-  margin-left: 34px;
-  margin-top: 354px;
   fill:#afb1b8;
+}
+.social-link:hover .social-icon{
+  fill: #ffffff;
+}
+.social-link:hover{
+  cursor: pointer;
+  background-color: var(--btn-bg-color);
+}
+.icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.icon-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  height: 92px;
+  flex-basis: calc((100% - 4 * 30px) / 5);
+}
+.icon{
+  fill: #afb1b8;
+}
+.icon.item:hover{
+  border: 1px solid var(--btn-bg-color);
+}
+.icon.item:hover.icon:hover{
+  fill: var(--btn-bg-color);
+  border: 1px solid var(--btn-bg-color);
 }
 .footer {
   background-color: var(--footer-bg-color);
